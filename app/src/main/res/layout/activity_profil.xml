@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_biodata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="25dp"
+            android:gravity="center_horizontal"
+            android:text="BIODATA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorMid"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+        <ImageView
+            android:layout_margin="16dp"
+            android:id="@+id/iconuser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person"
+            android:layout_below="@id/tv_biodata"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:layout_toRightOf="@id/iconuser"
+            android:layout_below="@id/tv_biodata"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:layout_weight="2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorMid"
+                android:fontFamily="@font/roboto_regular"
+                />
+
+            <TextView
+                android:id="@+id/txtnama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dummy text Nama"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/iconuser"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="18dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMid"
+                    android:fontFamily="@font/roboto_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/txtjk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dummy text jk"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="18dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Umur"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMid"
+                    android:fontFamily="@font/roboto_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/txtumur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dummy text umur"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="18dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="E-Mail"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMid"
+                    android:fontFamily="@font/roboto_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/txtemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dummy text E-Mail"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="18dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Telepon"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMid"
+                    android:fontFamily="@font/roboto_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/txttelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dummy text no"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="18dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMid"
+                    android:fontFamily="@font/roboto_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/txtalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dummy text alamat"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="10dp"
+                android:text="Edit"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/roboto_regular"
+                android:background="@drawable/button_rounded"
+                android:id="@+id/btnedit"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btndial"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/button_dial"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="10dp"
+                    android:text="Dial"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/btnabout"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/button_about"
+                    android:fontFamily="@font/roboto_regular"
+                    android:padding="10dp"
+                    android:text="About"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

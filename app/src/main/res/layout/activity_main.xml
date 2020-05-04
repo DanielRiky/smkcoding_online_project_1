@@ -14,8 +14,6 @@
         android:background="#FFFFFF"
         tools:context=".MainActivity">
 
-//tes
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="191dp"
@@ -25,59 +23,70 @@
 
 
         <EditText
+            android:id="@+id/edtnama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/rounded"
             android:hint="Nama"
+            android:inputType="text"
             android:padding="10dp"
             android:textColorHint="#C3C4C8"
             android:fontFamily="@font/roboto_regular"
             />
 
         <Spinner
+            android:id="@+id/spinerjk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:entries="@array/jenis_kelamin"
-            android:padding="10dp"
             android:fontFamily="@font/roboto_regular"
-            />
+            android:padding="10dp"
+            android:spinnerMode="dropdown"
+            android:textColor="#C3C4C8" />
 
         <EditText
+            android:id="@+id/edtumur"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/rounded"
             android:hint="Umur"
+            android:inputType="number"
             android:padding="10dp"
             android:textColorHint="#C3C4C8"
             android:fontFamily="@font/roboto_regular"
 
             />
         <EditText
+            android:id="@+id/edtemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/rounded"
             android:hint="Email"
+            android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="#C3C4C8"
             android:fontFamily="@font/roboto_regular"
             />
 
         <EditText
+            android:id="@+id/edtno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/rounded"
             android:hint="No Telepon"
+            android:inputType="phone"
             android:padding="10dp"
             android:textColorHint="#C3C4C8"
             android:fontFamily="@font/roboto_regular"
             />
 
         <EditText
+            android:id="@+id/edtalamat"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="16dp"
@@ -91,14 +100,25 @@
             />
 
         <Button
+            android:id="@+id/btnsave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="18dp"
             android:padding="10dp"
             android:hint="Simpan"
             android:textColorHint="#FFFFFF"
             android:fontFamily="@font/roboto_regular"
             android:background="@drawable/button_rounded"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:text="BIODATA"
+            android:textSize="10sp"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:textColorHint="#C3C4C8"
+
             />
     </LinearLayout>
 </ScrollView>

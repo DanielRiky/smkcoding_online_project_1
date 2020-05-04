@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".EditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_margin="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorMid"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+
+        <EditText
+            android:id="@+id/edtnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded"
+            android:hint="Nama"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColorHint="#C3C4C8"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:padding="10dp"
+            android:hint="Simpan"
+            android:textColorHint="#FFFFFF"
+            android:fontFamily="@font/roboto_regular"
+            android:background="@drawable/button_rounded"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_margin="50dp"
+            android:gravity="center_horizontal"
+            android:text="BIODATA"
+            android:textColorHint="#C3C4C8"
+            android:textSize="10sp"
+
+            />
+    </LinearLayout>
+</ScrollView>

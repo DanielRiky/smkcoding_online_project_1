@@ -3,7 +3,7 @@
     <string name="app_name">Biodata</string>
 
     <string-array name="jenis_kelamin">
-        <item>Pilih Kelamin</item>
+        <item>Pilih Jenis Kelamin</item>
         <item>Laki-Laki</item>
         <item>Perempuan</item>
     </string-array>
