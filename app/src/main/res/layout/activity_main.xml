@@ -14,6 +14,8 @@
         android:background="#FFFFFF"
         tools:context=".MainActivity">
 
+//tes
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="191dp"
